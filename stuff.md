@@ -8,5 +8,8 @@ title: stuff
 * etc
 * blah
 
-I have some cool [projects](/projects) you might like to check out
+I have some cool [projects](/projects) you might like to check out.
+
+Also, you may want to check out my
+![balls](/images/balls.jpg)
 
