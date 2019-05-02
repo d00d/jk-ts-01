@@ -29,7 +29,7 @@
 			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 68,
+				"buffer_size": 69,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -97,14 +97,6 @@
 				"name": "Package Control Messages",
 				"read_only": true,
 				"scratch": true
-			}
-		},
-		{
-			"file": "_site/about/index.html",
-			"settings":
-			{
-				"buffer_size": 3996,
-				"line_ending": "Unix"
 			}
 		},
 		{
@@ -183,11 +175,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite",
-		"/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_posts"
+		"/Volumes/Macintosh HD 2/Documents 2/code/projects/jk-ts-01"
 	],
 	"file_history":
 	[
+		"/Volumes/Macintosh HD 2/Documents 2/code/projects/jk-ts-01/testSite.sublime-project",
+		"/Volumes/Macintosh HD 2/Documents 2/code/projects/jk-ts-01/_site/about/index.html",
 		"/Volumes/Macintosh HD 2/GDrive/PRA/img/balls.jpg",
 		"/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_posts/2019-05-01-hello-world.md",
 		"/Volumes/Macintosh HD 2/Documents 2/code/projects/d00d.github.io/FallbrookSite.sublime-project",
@@ -199,7 +192,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -299,15 +292,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 68,
+						"buffer_size": 69,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								68,
-								68
+								0,
+								0
 							]
 						],
 						"settings":
@@ -574,41 +567,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
 					"buffer": 10,
-					"file": "_site/about/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3996,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1437,
-								1437
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
 					"file": "/Users/Rob/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
 					"semi_transient": false,
 					"settings":
@@ -633,7 +596,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -721,7 +684,7 @@
 		[
 			[
 				"",
-				"/Volumes/Macintosh HD 2/Documents 2/code/projects/jekyll-serif-theme-master/SerifJekyllSite.sublime-project"
+				"/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/testSite.sublime-workspace"
 			]
 		],
 		"width": 380.0
