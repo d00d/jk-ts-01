@@ -17,20 +17,10 @@
 			}
 		},
 		{
-			"contents": "Roberts-iMac-7% bundle exec jekyll serve\nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_config.yml\n            Source: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite\n       Destination: public\n Incremental build: disabled. Enable with --incremental\n      Generating... \n       Jekyll Feed: Generating feed for posts\n                    done in 0.484 seconds.\n Auto-regeneration: enabled for '/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite'\n    Server address: http://127.0.0.1:4000/\n  Server running... press ctrl-c to stop.\n      Regenerating: 1 file(s) changed at 2019-04-30 12:28:56\n                    _posts/2019-04-29-welcome-to-jekyll.markdown\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.140127 seconds.\n                    \n",
-			"settings":
-			{
-				"buffer_size": 824,
-				"line_ending": "Unix",
-				"name": "Login Shell",
-				"scratch": true
-			}
-		},
-		{
 			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1039,
+				"buffer_size": 1107,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -45,11 +35,56 @@
 			}
 		},
 		{
+			"contents": "Roberts-iMac-7% bundle exec jekyll serve\nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_config.yml\n            Source: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite\n       Destination: public\n Incremental build: disabled. Enable with --incremental\n      Generating... \n       Jekyll Feed: Generating feed for posts\n                    done in 0.484 seconds.\n Auto-regeneration: enabled for '/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite'\n    Server address: http://127.0.0.1:4000/\n  Server running... press ctrl-c to stop.\n      Regenerating: 1 file(s) changed at 2019-04-30 12:28:56\n                    _posts/2019-04-29-welcome-to-jekyll.markdown\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.140127 seconds.\n                    \n\nRoberts-iMac-7% pwd                                                                \n/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite\nRoberts-iMac-7% bundle                                                             \n\n[!] There was an error parsing `Gemfile`: Undefined local variable or method `jekyl​‌​\nl_plugins' for Gemfile. Bundler cannot continue.\n\n #  from /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/Gemfile:31\n #  -------------------------------------------\n #  \n >  gem 'jekyll-comkpose', group: [jekyll_plugins]\n #  -------------------------------------------\nRoberts-iMac-7% bundle                                                             \n\n[!] There was an error parsing `Gemfile`: Undefined local variable or method `jekyl​‌​\nl_plugins' for Gemfile. Bundler cannot continue.\n\n #  from /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/Gemfile:31\n #  -------------------------------------------\n #  \n >  gem 'jekyll-compose', group: [jekyll_plugins]\n #  -------------------------------------------\nRoberts-iMac-7% bundle                                                             \nThe dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is​‌​\n installing for. Bundler is installing for ruby but the dependency is only for x86-​‌​\nmingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run ​‌​\n`bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.\nFetching gem metadata from https://rubygems.org/...........\nFetching gem metadata from https://rubygems.org/.\nResolving dependencies...\nUsing public_suffix 3.0.3\nUsing addressable 2.6.0\nUsing bundler 1.16.1\nUsing colorator 1.1.0\nUsing concurrent-ruby 1.1.5\nUsing eventmachine 1.2.7\nUsing http_parser.rb 0.6.0\nUsing em-websocket 0.5.1\nUsing ffi 1.10.0\nUsing forwardable-extended 2.6.0\nUsing i18n 0.9.5\nUsing rb-fsevent 0.10.3\nUsing rb-inotify 0.10.0\nUsing sass-listen 4.0.0\nUsing sass 3.7.4\nUsing jekyll-sass-converter 1.5.2\nUsing ruby_dep 1.5.0\nUsing listen 3.1.5\nUsing jekyll-watch 2.2.1\nUsing kramdown 1.17.0\nUsing liquid 4.0.3\nUsing mercenary 0.3.6\nUsing pathutil 0.16.2\nUsing rouge 3.3.0\nUsing safe_yaml 1.0.5\nUsing jekyll 3.7.4\nFetching jekyll-compose 0.11.0\n\n\nYour user account isn't allowed to install to the system RubyGems.\n  You can cancel this installation and run:\n\n      bundle install --path vendor/bundle\n\n  to install the gems into ./vendor/bundle/, or you can enter your password\n  and install the bundled gems to RubyGems using sudo.\n\n  Password: \n\n\nYour user account isn't allowed to install to the system RubyGems.\n  You can cancel this installation and run:\n\n      bundle install --path vendor/bundle\n\n  to install the gems into ./vendor/bundle/, or you can enter your password\n  and install the bundled gems to RubyGems using sudo.\n\n  Password: \nInstalling jekyll-compose 0.11.0\nUsing jekyll-feed 0.12.1\nUsing jekyll-seo-tag 2.6.0\nUsing minima 2.5.0\nBundle complete! 5 Gemfile dependencies, 30 gems now installed.\nUse `bundle info [gemname]` to see where a bundled gem is installed.\nRoberts-iMac-7% bundle exec jekyll post \"Hello World\"                              \nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_con​‌​\nfig.yml\nNew post created at _posts/2019-05-01-hello-world.md \nRoberts-iMac-7% bundle exec jekyll serve                                           \nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_con​‌​\nfig.yml\n            Source: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite\n       Destination: public\n Incremental build: disabled. Enable with --incremental\n      Generating... \n       Jekyll Feed: Generating feed for posts\n                    done in 0.544 seconds.\n Auto-regeneration: enabled for '/Volumes/Macintosh HD 2/Documents 2/code/projects/​‌​\ntestSite'\n    Server address: http://127.0.0.1:4000/\n  Server running... press ctrl-c to stop.\n      Regenerating: 1 file(s) changed at 2019-05-01 10:17:52\n                    _posts/2019-05-01-hello-world.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.177408 seconds.\n                    \n^C%                                                                                ​‌​\nRoberts-iMac-7% bundle exec jekyll serve                                           \nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_con​‌​\nfig.yml\n            Source: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite\n       Destination: public\n Incremental build: disabled. Enable with --incremental\n      Generating... \n       Jekyll Feed: Generating feed for posts\n                    done in 0.439 seconds.\n Auto-regeneration: enabled for '/Volumes/Macintosh HD 2/Documents 2/code/projects/​‌​\ntestSite'\n    Server address: http://127.0.0.1:4000/\n  Server running... press ctrl-c to stop.\n      Regenerating: 1 file(s) changed at 2019-05-01 10:25:21\n                    _posts/2019-05-01-hello-world.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.203818 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 10:25:33\n                    _posts/2019-05-01-hello-world.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.194245 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 10:25:55\n                    _posts/2019-05-01-hello-world.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.160532 seconds.\n                    \n^C%                                                                                ​‌​\nRoberts-iMac-7% bundle exec jekyll page \"Projects\"                                 \nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_con​‌​\nfig.yml\nNew page created at projects.md \nRoberts-iMac-7% bundle exec jekyll serve                                           \nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_con​‌​\nfig.yml\n            Source: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite\n       Destination: public\n Incremental build: disabled. Enable with --incremental\n      Generating... \n       Jekyll Feed: Generating feed for posts\n                    done in 0.543 seconds.\n Auto-regeneration: enabled for '/Volumes/Macintosh HD 2/Documents 2/code/projects/​‌​\ntestSite'\n    Server address: http://127.0.0.1:4000/\n  Server running... press ctrl-c to stop.\n      Regenerating: 1 file(s) changed at 2019-05-01 10:34:03\n                    about.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.184575 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 10:34:28\n                    about.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.173126 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 10:35:00\n                    about.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.171885 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 10:35:46\n                    about.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.16985 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 10:36:49\n                    about.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.179215 seconds.\n                    \n^C%                                                                                ​‌​\nRoberts-iMac-7% bundle                                                             \nUsing public_suffix 3.0.3\nUsing addressable 2.6.0\nUsing bundler 1.16.1\nUsing colorator 1.1.0\nUsing concurrent-ruby 1.1.5\nUsing eventmachine 1.2.7\nUsing http_parser.rb 0.6.0\nUsing em-websocket 0.5.1\nUsing ffi 1.10.0\nUsing forwardable-extended 2.6.0\nUsing i18n 0.9.5\nUsing rb-fsevent 0.10.3\nUsing rb-inotify 0.10.0\nUsing sass-listen 4.0.0\nUsing sass 3.7.4\nUsing jekyll-sass-converter 1.5.2\nUsing ruby_dep 1.5.0\nUsing listen 3.1.5\nUsing jekyll-watch 2.2.1\nUsing kramdown 1.17.0\nUsing liquid 4.0.3\nUsing mercenary 0.3.6\nUsing pathutil 0.16.2\nUsing rouge 3.3.0\nUsing safe_yaml 1.0.5\nUsing jekyll 3.7.4\nUsing jekyll-compose 0.11.0\nUsing jekyll-feed 0.12.1\nUsing jekyll-seo-tag 2.6.0\nUsing minima 2.5.0\nBundle complete! 5 Gemfile dependencies, 30 gems now installed.\nUse `bundle info [gemname]` to see where a bundled gem is installed.\nRoberts-iMac-7% bundle exec jekyll serve                                           \nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_con​‌​\nfig.yml\n            Source: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite\n       Destination: public\n Incremental build: disabled. Enable with --incremental\n      Generating... \n       Jekyll Feed: Generating feed for posts\n                    done in 0.53 seconds.\n Auto-regeneration: enabled for '/Volumes/Macintosh HD 2/Documents 2/code/projects/​‌​\ntestSite'\n    Server address: http://127.0.0.1:4000/\n  Server running... press ctrl-c to stop.\n^C%                                                                                ​‌​\nRoberts-iMac-7% bundle                                                             \nThe dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is​‌​\n installing for. Bundler is installing for ruby but the dependency is only for x86-​‌​\nmingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run ​‌​\n`bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.\nFetching gem metadata from https://rubygems.org/...........\nFetching gem metadata from https://rubygems.org/.\nResolving dependencies...\nUsing public_suffix 3.0.3\nUsing addressable 2.6.0\nUsing bundler 1.16.1\nUsing colorator 1.1.0\nUsing concurrent-ruby 1.1.5\nUsing eventmachine 1.2.7\nUsing http_parser.rb 0.6.0\nUsing em-websocket 0.5.1\nUsing ffi 1.10.0\nUsing forwardable-extended 2.6.0\nUsing i18n 0.9.5\nUsing rb-fsevent 0.10.3\nUsing rb-inotify 0.10.0\nUsing sass-listen 4.0.0\nUsing sass 3.7.4\nUsing jekyll-sass-converter 1.5.2\nUsing ruby_dep 1.5.0\nUsing listen 3.1.5\nUsing jekyll-watch 2.2.1\nUsing kramdown 1.17.0\nUsing liquid 4.0.3\nUsing mercenary 0.3.6\nUsing pathutil 0.16.2\nUsing rouge 3.3.0\nUsing safe_yaml 1.0.5\nUsing jekyll 3.7.4\nUsing jekyll-athena 0.0.2\nUsing jekyll-compose 0.11.0\nUsing jekyll-feed 0.12.1\nBundle complete! 5 Gemfile dependencies, 29 gems now installed.\nUse `bundle info [gemname]` to see where a bundled gem is installed.\nRoberts-iMac-7% bundle exec jekyll serve                                           \nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_con\nfig.yml\njekyll 3.7.4 | Error:  The minima theme could not be found.\nRoberts-iMac-7% bundle                                                             \nUsing public_suffix 3.0.3\nUsing addressable 2.6.0\nUsing bundler 1.16.1\nUsing colorator 1.1.0\nUsing concurrent-ruby 1.1.5\nUsing eventmachine 1.2.7\nUsing http_parser.rb 0.6.0\nUsing em-websocket 0.5.1\nUsing ffi 1.10.0\nUsing forwardable-extended 2.6.0\nUsing i18n 0.9.5\nUsing rb-fsevent 0.10.3\nUsing rb-inotify 0.10.0\nUsing sass-listen 4.0.0\nUsing sass 3.7.4\nUsing jekyll-sass-converter 1.5.2\nUsing ruby_dep 1.5.0\nUsing listen 3.1.5\nUsing jekyll-watch 2.2.1\nUsing kramdown 1.17.0\nUsing liquid 4.0.3\nUsing mercenary 0.3.6\nUsing pathutil 0.16.2\nUsing rouge 3.3.0\nUsing safe_yaml 1.0.5\nUsing jekyll 3.7.4\nUsing jekyll-athena 0.0.2\nUsing jekyll-compose 0.11.0\nUsing jekyll-feed 0.12.1\nBundle complete! 5 Gemfile dependencies, 29 gems now installed.\nUse `bundle info [gemname]` to see where a bundled gem is installed.\nRoberts-iMac-7% bundle exec jekyll serve                                           \nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_con\nfig.yml\njekyll 3.7.4 | Error:  The minima theme could not be found.\nRoberts-iMac-7% bundle exec jekyll serve                                                                       \nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_config.yml\n            Source: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite\n       Destination: public\n Incremental build: disabled. Enable with --incremental\n      Generating... \n       Jekyll Feed: Generating feed for posts\n                    done in 0.425 seconds.\n Auto-regeneration: enabled for '/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite'\n    Server address: http://127.0.0.1:4000/\n  Server running... press ctrl-c to stop.\n^C%                                                                                                            \nRoberts-iMac-7% bundle                                                                                         \nUsing public_suffix 3.0.3\nUsing addressable 2.6.0\nUsing bundler 1.16.1\nUsing colorator 1.1.0\nUsing concurrent-ruby 1.1.5\nUsing eventmachine 1.2.7\nUsing http_parser.rb 0.6.0\nUsing em-websocket 0.5.1\nUsing ffi 1.10.0\nUsing forwardable-extended 2.6.0\nUsing i18n 0.9.5\nUsing rb-fsevent 0.10.3\nUsing rb-inotify 0.10.0\nUsing sass-listen 4.0.0\nUsing sass 3.7.4\nUsing jekyll-sass-converter 1.5.2\nUsing ruby_dep 1.5.0\nUsing listen 3.1.5\nUsing jekyll-watch 2.2.1\nUsing kramdown 1.17.0\nUsing liquid 4.0.3\nUsing mercenary 0.3.6\nUsing pathutil 0.16.2\nUsing rouge 3.3.0\nUsing safe_yaml 1.0.5\nUsing jekyll 3.7.4\nUsing jekyll-athena 0.0.2\nUsing jekyll-compose 0.11.0\nUsing jekyll-feed 0.12.1\nBundle complete! 5 Gemfile dependencies, 29 gems now installed.\nUse `bundle info [gemname]` to see where a bundled gem is installed.\nRoberts-iMac-7% bundle exec jekyll serve                                                                       \nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_config.yml\n            Source: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite\n       Destination: public\n Incremental build: disabled. Enable with --incremental\n      Generating... \n       Jekyll Feed: Generating feed for posts\n                    done in 0.435 seconds.\n Auto-regeneration: enabled for '/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite'\n    Server address: http://127.0.0.1:4000/\n  Server running... press ctrl-c to stop.\n      Regenerating: 1 file(s) changed at 2019-05-01 10:46:41\n                    about.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.114329 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 10:47:02\n                    about.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.092638 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 10:47:12\n                    about.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.101628 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 10:47:22\n                    about.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.094704 seconds.\n                    \n^C%                                                                                       ​‌​\nRoberts-iMac-7% bundle exec jekyll serve                                                  \nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_config.yml\n            Source: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite\n       Destination: public\n Incremental build: disabled. Enable with --incremental\n      Generating... \n       Jekyll Feed: Generating feed for posts\n                    done in 0.452 seconds.\n Auto-regeneration: enabled for '/Volumes/Macintosh HD 2/Documents 2/code/projects/testSit​‌​\ne'\n    Server address: http://127.0.0.1:4000/\n  Server running... press ctrl-c to stop.\n^C%                                                                                       ​‌​\nRoberts-iMac-7% bundle exec jekyll page \"stuff\"                                           \nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_config.yml\nNew page created at stuff.md \nRoberts-iMac-7% bundle exec jekyll serve                                                  \nConfiguration file: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_config.yml\n            Source: /Volumes/Macintosh HD 2/Documents 2/code/projects/testSite\n       Destination: public\n Incremental build: disabled. Enable with --incremental\n      Generating... \n       Jekyll Feed: Generating feed for posts\n                    done in 0.47 seconds.\n Auto-regeneration: enabled for '/Volumes/Macintosh HD 2/Documents 2/code/projects/testSit​‌​\ne'\n    Server address: http://127.0.0.1:4000/\n  Server running... press ctrl-c to stop.\n      Regenerating: 1 file(s) changed at 2019-05-01 10:56:45\n                    stuff.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.110859 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 10:56:58\n                    stuff.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.112428 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 10:57:11\n                    stuff.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.113732 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 10:58:44\n                    stuff.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.10401 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 11:00:05\n                    stuff.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.097764 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 11:00:44\n                    stuff.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.101144 seconds.\n                    \n[2019-05-01 11:00:44] ERROR `/images/balls.jpg' not found.\n      Regenerating: 1 file(s) changed at 2019-05-01 11:04:03\n                    images/balls.jpg\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.105404 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 11:04:29\n                    stuff.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.319644 seconds.\n                    \n      Regenerating: 1 file(s) changed at 2019-05-01 11:05:21\n                    stuff.md\n       Jekyll Feed: Generating feed for posts\n                    ...done in 0.100643 seconds.\n                    \n",
+			"settings":
+			{
+				"buffer_size": 19560,
+				"line_ending": "Unix",
+				"name": "Login Shell",
+				"scratch": true
+			}
+		},
+		{
+			"file": "stuff.md",
+			"settings":
+			{
+				"buffer_size": 202,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "about.md",
+			"settings":
+			{
+				"buffer_size": 158,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "projects.md",
+			"settings":
+			{
+				"buffer_size": 81,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "_config.yml",
 			"settings":
 			{
-				"buffer_size": 1502,
+				"buffer_size": 1520,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "404.html",
+			"settings":
+			{
+				"buffer_size": 398,
 				"line_ending": "Unix"
 			}
 		},
@@ -69,14 +104,6 @@
 			"settings":
 			{
 				"buffer_size": 3996,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_site/index.html",
-			"settings":
-			{
-				"buffer_size": 3720,
 				"line_ending": "Unix"
 			}
 		},
@@ -157,15 +184,12 @@
 	"expanded_folders":
 	[
 		"/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite",
-		"/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_posts",
-		"/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_site",
-		"/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_site/about",
-		"/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_site/jekyll",
-		"/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/public",
-		"/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/public/assets"
+		"/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_posts"
 	],
 	"file_history":
 	[
+		"/Volumes/Macintosh HD 2/GDrive/PRA/img/balls.jpg",
+		"/Volumes/Macintosh HD 2/Documents 2/code/projects/testSite/_posts/2019-05-01-hello-world.md",
 		"/Volumes/Macintosh HD 2/Documents 2/code/projects/d00d.github.io/FallbrookSite.sublime-project",
 		"/Users/Rob/Downloads/Ex_Files_SublimeText3_Basics/roux_website 2/spotlight.htm",
 		"/Users/Rob/Downloads/Ex_Files_SublimeText3_Basics/roux_website/400.shtml",
@@ -179,9 +203,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 101.0,
+		"height": 106.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -189,6 +214,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"minima",
 			"wrapper",
 			"serif"
 		],
@@ -208,7 +234,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -236,23 +262,79 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "Gemfile",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 824,
+						"buffer_size": 1107,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								824,
-								824
+								499,
+								499
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Commit.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19560,
+								19560
 							]
 						],
 						"settings":
@@ -275,6 +357,7 @@
 							"scroll_past_end": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"tab_size": 2,
+							"terminus.highlight_counter": 792,
 							"terminus_view": true,
 							"terminus_view.args":
 							{
@@ -303,94 +386,122 @@
 							"terminus_view.natural_keyboard": true,
 							"terminus_view.panel_name": null,
 							"terminus_view.tag": null,
-							"terminus_view.viewport_y": 0.0,
+							"terminus_view.viewport_y": 6834.0,
 							"translate_tabs_to_spaces": true,
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 6834.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "Gemfile",
+					"buffer": 4,
+					"file": "stuff.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1039,
+						"buffer_size": 202,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1039,
-								1039
+								202,
+								202
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": ".gitignore",
+					"buffer": 5,
+					"file": "about.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 68,
+						"buffer_size": 158,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								68,
-								68
+								140,
+								140
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Git Formats/Git Commit.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "projects.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 7,
 					"file": "_config.yml",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1502,
+						"buffer_size": 1520,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1197,
-								1197
+								940,
+								940
 							]
 						],
 						"settings":
@@ -401,11 +512,41 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
+					"file": "404.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 398,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"semi_transient": false,
 					"settings":
 					{
@@ -433,11 +574,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 10,
 					"file": "_site/about/index.html",
 					"semi_transient": false,
 					"settings":
@@ -449,8 +590,8 @@
 						"selection":
 						[
 							[
-								2303,
-								2344
+								1437,
+								1437
 							]
 						],
 						"settings":
@@ -460,44 +601,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "_site/index.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3720,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
+					"buffer": 11,
 					"file": "/Users/Rob/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
 					"semi_transient": false,
 					"settings":
@@ -522,7 +633,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -534,7 +645,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -556,7 +667,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.539163111719,
 			1.0
 		],
 		"rows":
@@ -610,7 +721,7 @@
 		[
 			[
 				"",
-				"/Volumes/Macintosh HD 2/Documents 2/code/projects/d00d.github.io/FallbrookSite.sublime-project"
+				"/Volumes/Macintosh HD 2/Documents 2/code/projects/jekyll-serif-theme-master/SerifJekyllSite.sublime-project"
 			]
 		],
 		"width": 380.0
